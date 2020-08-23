@@ -1,4 +1,4 @@
-def getNeighbors(row, col, grid)
+def getAliveNeighborsCount(row, col, grid)
 	rows = grid.length
 	columns = grid[0].length
 	neighbors = Array.new()
@@ -26,7 +26,7 @@ def getNeighbors(row, col, grid)
 	if row<rows-1 and col>0
 		neighbors << grid[row + 1][col - 1]
 	end
-	return neighbors
+	return neighbors.count(1)
 end
 
 def printGrid(grid, generation)
@@ -48,9 +48,9 @@ grid = Array.new(rows) { Array.new(columns) { 0 } }
 #initialize random cells as alive
 (0..rows-1).each do |row|
 	(0..columns-1).each do |col|
-		if row == col || row == 0
+		if row*col > (rand 0..(rows*columns))
 			grid[row][col] = 1
-		end
+		end 
 	end
 end
 
@@ -60,8 +60,7 @@ end
 	next_grid = Array.new(rows) { Array.new(columns) { 0 } }
 	(0..rows-1).each do |row|
 		(0..columns-1).each do |col|
-			neighbors = getNeighbors(row, col, grid)
-			alive_neighbors = neighbors.count(1)
+			alive_neighbors = getAliveNeighborsCount(row, col, grid)
 			alive = grid[row][col] == 1? true : false
 			if alive
 				if alive_neighbors == 2 || alive_neighbors == 3
