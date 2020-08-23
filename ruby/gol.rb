@@ -31,10 +31,10 @@ end
 
 def printGrid(grid, generation)
 	for row in grid do
-		puts("\t" + row.map{ |elem| elem == 1 ? '*' : '' 	}.join(' '))
+		puts("\t" + row.map{ |elem| elem == 1 ? '*' : ''}.join(' '))
 	end
 	puts("\t Generation: " + generation.to_s)
-	sleep 2
+	sleep 0.5
 	Gem.win_platform? ? (system "cls") : (system "clear")
 end
 
