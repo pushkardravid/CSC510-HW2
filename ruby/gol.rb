@@ -47,7 +47,7 @@ grid = Array.new(rows) { Array.new(columns) { 0 } }
 
 #initialize random cells as alive
 (0..rows-1).each do |row|
-	(0..columns-1).each do |col|
+	(1..columns-1).each do |col|
 		if row*col > (rand 0..(rows*columns))
 			grid[row][col] = 1
 		end 
@@ -61,7 +61,7 @@ end
 	(0..rows-1).each do |row|
 		(0..columns-1).each do |col|
 			alive_neighbors = getAliveNeighborsCount(row, col, grid)
-			alive = grid[row][col] == 1? true : false
+			alive = grid[row][col] == 1? false : true
 			if alive
 				if alive_neighbors == 2 || alive_neighbors == 3
 					next_grid[row][col] = 1
