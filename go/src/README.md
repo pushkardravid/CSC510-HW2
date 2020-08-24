@@ -1,4 +1,4 @@
-# Game of Life Ruby Simulation
+# Game of Life Go Simulation
 
 ### Pre-requisites
  - Install Go. Instructions can be found [here](https://golang.org/dl/)
@@ -6,7 +6,7 @@
 ### Running the code
 
  - Clone this repository and navigate to the `\go` directory
- - Run the ruby simulation using this command
+ - Run the go simulation using this command
 
       ```
       go run .\src\gameOfLife.go
