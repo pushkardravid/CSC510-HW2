@@ -52,6 +52,17 @@ function getNextGeneration(currentGeneration)
   return newGeneration
 end
 
+function prettyDisplay(life, i, generations)
+    life = replace(life, 1 =>"*", 0 =>" ")
+    println("Generation $i")
+    for row in eachrow(life)
+      println(*(row...))
+      sleep(0.1)
+    end
+    if i != generations
+      Base.run(`clear`)
+    end
+end
 
 function main()
     println("Welcome to game of life. Before we start, please provide few parameters")
@@ -62,7 +73,7 @@ function main()
     initialLife = rand([0, 1], size, size)
     
     for i = 1:generations
-        initialLife = getNextGeneration(initialLife)
+        prettyDisplay(initialLife, i, generations)
         display(initialLife)
     end
 end
