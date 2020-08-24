@@ -71,7 +71,9 @@ function main()
     println("How many generations do you want: ")
     generations = parse(UInt8, readline())
     initialLife = rand([0, 1], size, size)
-    
+    alive = count(x->x==1, initialLife) / 2
+    initialLife = replace(initialLife, 1 =>0, count = trunc(Int, alive))
+
     for i = 1:generations
         prettyDisplay(initialLife, i, generations)
         display(initialLife)
