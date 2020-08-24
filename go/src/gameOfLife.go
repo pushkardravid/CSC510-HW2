@@ -12,15 +12,16 @@ func randomInt(min, max int) int {
 
 func main() {
 	var generation, rows, cols int
+	// Number of times board populated
 	fmt.Print("Number of generations: ")
 	fmt.Scanln(&generation)
 	for p := 0; p < generation; p++ {
+		// User input for number of rows
 		fmt.Print("Number of rows: ")
 		fmt.Scanln(&rows)
+		// User input for number of cols
 		fmt.Print("Number of colums: ")
 		fmt.Scanln(&cols)
-		fmt.Println(rows, cols, generation)
-		//var board [1000][1000]int
 		board := make([][]int, rows)
 		for i := range board {
 			board[i] = make([]int, cols)
