@@ -9,7 +9,7 @@
  - Run the go simulation using this command
 
       ```
-      go run .\src\gameOfLife.go
+      go run .\src\gol.go
       ```
  - The code will ask for the following inputs: 
       
