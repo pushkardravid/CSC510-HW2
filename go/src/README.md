@@ -17,7 +17,11 @@
      - Number of rows in the grid
      - Number of columns in the grid
    
-These values should be entered as a single space seperated string. For example, `40 40 100`
+These values should be entered integers for each of the input requested.
+
+### Code execution verify
+
+ - Copy and paste the code [here](https://repl.it/) and run it to view the output.
 
 ### Output
 
