@@ -52,6 +52,7 @@ function getNextGeneration(currentGeneration)
   return newGeneration
 end
 
+
 function prettyDisplay(life, i, generations)
     life = replace(life, 1 =>"*", 0 =>" ")
     println("Generation $i")
@@ -63,6 +64,8 @@ function prettyDisplay(life, i, generations)
       Base.run(`clear`)
     end
 end
+
+
 
 function main()
     println("Welcome to game of life. Before we start, please provide few parameters")
