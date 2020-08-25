@@ -44,7 +44,19 @@ func playGame(board [][]int) {
 			}
 		}
 	}
-	//printBoard(future)
+	printBoard(future)
+}
+
+func printBoard(board [][]int) {
+    rows := len(board)
+    cols := len(board[0])
+    for i := 0; i < rows; i++ {
+        for j := 0; j < cols; j++ {
+            fmt.Print(strconv.Itoa(board[i][j]) + " ")
+        }
+        fmt.Println()
+    }
+    fmt.Println()
 }
 
 func randomInt(min, max int) int {
@@ -74,7 +86,7 @@ func main() {
 				board[i][j] = randomInt(0, 2)
 			}
 		}
-		//printBoard(board)
-		//playGame(board)
+		printBoard(board)
+		playGame(board)
 	}
 }
