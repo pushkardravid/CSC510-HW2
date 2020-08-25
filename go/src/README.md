@@ -27,4 +27,4 @@ These values should be entered integers for each of the input requested.
 <img width="401" alt="Screen Shot 2020-08-24 at 10 43 02 PM" src="https://user-images.githubusercontent.com/22769761/91118247-83c10200-e65e-11ea-9fc3-2a33f10bdd4f.png">
 
 
-This represents the state of the grid for 5<sup>th</sup> generations
+This represents the state of the grid for 5 generations
