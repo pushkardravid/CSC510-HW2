@@ -58,8 +58,8 @@ func playGame(board [][]int, generation int) {
 func printBoard(board [][]int) {
 	rows := len(board)
 	cols := len(board[0])
-	for i := 0; i < rows; i++ {
-		for j := 0; j < cols; j++ {
+	for i := 0; i < rows-2; i++ {
+		for j := 0; j < cols-2; j++ {
 			fmt.Print(strconv.Itoa(board[i][j]) + " ")
 		}
 		fmt.Println()
