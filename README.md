@@ -6,40 +6,9 @@ We have created a simulation for Conway's [Game of life](https://en.wikipedia.or
 
 The languages chosen for this study are [Ruby](https://github.com/pushkardravid/CSC510-HW2/blob/master/ruby), [Go](https://github.com/pushkardravid/CSC510-HW2/blob/master/go), and [Julia](https://github.com/pushkardravid/CSC510-HW2/blob/master/julia). Documentation for each of these programs can be found by visiting their respective directories.
 
-Steps to run the program:
+The findings of this experiment would be documented as follows:
 
-Click [here](https://repl.it/). to open repl.it
-
-*For Ruby* 
-
--> Select the language = "Ruby" in .replit
-
--> To run, execute the following
-    "ruby ./ruby/gol.rb"
-
--> Click on 'Run' to execute it.
-
-
-*For Julia* 
-
--> Select the language = "Julia" in .replit
-
--> To Run, execute the following
-    "julia ./julia/gol.jl"
-
--> Click on 'Run' to execute it.
-
-
-*For Golang*
-
--> Select the language = "Go" in .replit
-
--> To run, execute the following
-    "go run ./go/src/gol.go"
-
--> Click on 'Run' to execute it
-
-
+TBD
 
 ***
 
