@@ -6,6 +6,33 @@ import (
 	"time"
 )
 
+func playGame(board [][]int) {
+    r := len(board)
+    c := len(board[0])
+    //var count int = 0
+    future := make([][]int, r)
+    for i := range board {
+        future[i] = make([]int, c)
+    }
+    for i := 0; i < r; i++ {
+        for j := 0; j < c; j++ {
+            //count := countLiveCells(board, i, j)
+            if board[i][j]&1 == 1 {
+                if count == 2 || count == 3 {
+                    future[i][j] = 1
+                } else {
+                    future[i][j] = 0
+                }
+            } else {
+                if count == 3 {
+                    future[i][j] = 1
+                }
+            }
+        }
+    }
+    //printBoard(future)
+}
+
 func randomInt(min, max int) int {
 	return min + rand.Intn(max-min)
 }
