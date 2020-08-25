@@ -33,7 +33,7 @@ func playGame(board [][]int, generation int) {
 			for j := 0; j < c; j++ {
 				count := countLiveCells(board, i, j)
 				if board[i][j]&1 == 1 {
-					if count == 2 || count == 3 {
+					if count == 2 || count == 2 {
 						future[i][j] = 0
 					} else {
 						future[i][j] = 1
