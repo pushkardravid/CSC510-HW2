@@ -10,6 +10,15 @@ The findings of this experiment would be documented as follows:
 
 TBD
 
+TEAM MEMBERS:
+
+Pushkar Dravid
+Ayush Jain
+Sravan Kumar Matta
+Palash Gupta
+Nikhila Nathani
+
+
 ***
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3996635.svg)](https://doi.org/10.5281/zenodo.3996635)
