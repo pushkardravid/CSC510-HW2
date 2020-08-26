@@ -16,10 +16,10 @@ function getAliveNeighbours(row, column, arr)
   if row>1 && column>1
       push!(neighbours, arr[row - 1,column - 1])
   end
-  if row<rows && column<columns
+  if row<rows && column<columns-1
       push!(neighbours, arr[row + 1,column + 1])
   end
-  if row>1 && column<columns
+  if row>1 && column<columns-1
     push!(neighbours, arr[row - 1,column + 1])
   end
   if row<rows && column>1
@@ -39,11 +39,11 @@ function getNextGeneration(currentGeneration)
       alive = getAliveNeighbours(i,j,currentGeneration)
       if alive > 0
           if alive == 2 || alive == 3
-            newGeneration[i,j] = 1
+            newGeneration[i][j] = 1
           end
       else
           if alive == 3
-					  newGeneration[i,j] = 1
+					  newGeneration[i][j] = 1
 				  end
       end
     end
@@ -76,7 +76,6 @@ function main()
 
     for i = 1:generations
         prettyDisplay(initialLife, i, generations)
-        display(initialLife)
     end
 end
 
