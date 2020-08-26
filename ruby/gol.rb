@@ -29,13 +29,15 @@ def getAliveNeighborsCount(row, col, grid)
 	return neighbors.count(1)
 end
 
-def printGrid(grid, generation)
+def printGrid(grid, generation, isLast)
 	for row in grid do
 		puts("\t" + row.map{ |elem| elem == 1 ? '*' : ''}.join(' '))
 	end
 	puts("\t Generation: " + generation.to_s)
-	sleep 0.5
-	Gem.win_platform? ? (system "cls") : (system "clear")
+	if ! isLast
+		sleep 0.5
+	    Gem.win_platform? ? (system "cls") : (system "clear")
+	end
 end
 
 #read input from user
@@ -55,8 +57,8 @@ grid = Array.new(rows) { Array.new(columns) { 0 } }
 end
 
 #simulate generations for grid
-(0..generations).each do |generation|
-	printGrid(grid, generation)
+(1..generations).each do |generation|
+	printGrid(grid, generation, generation == generations)
 	next_grid = Array.new(rows) { Array.new(columns) { 0 } }
 	(0..rows-1).each do |row|
 		(0..columns-1).each do |col|
