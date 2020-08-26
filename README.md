@@ -8,26 +8,25 @@ The languages chosen for this study are [Ruby](https://github.com/pushkardravid/
 
 Steps to run the program:
 
-Click here. to open repl.it
+Click [here](https://repl.it/@PushkarDravid/CSC510-HW2) to open repl.it
 
 *For Ruby*
 
-* Select the language = "Ruby" in .replit
-* To run, execute the following "ruby ./ruby/gol.rb"
-* Click on 'Run' to execute it.
+* Go to the Ruby folder by doing `cd ruby`
+* To run, execute the following `ruby gol.rb`
 
 *For Julia*
 
-* Select the language = "Julia" in .replit
-* To Run, execute the following "julia ./julia/gol.jl"
-* Click on 'Run' to execute it.
+* Go to the Julia folder by doing `cd julia`
+* To run, execute the following `julia gol.jl`
 
 *For Golang*
 
-* Select the language = "Go" in .replit
-* To run, execute the following "go run ./go/src/gol.go"
-* Click on 'Run' to execute it
+* Go to the Go folder by doing `cd go`
+* To run, execute the following `go run src/gol.go`
 
+***
+Please take [this survey](https://pushkardravid.typeform.com/to/Hbzlbpvu) to help us capture the results of the experiment.
 
 TEAM MEMBERS:
 
