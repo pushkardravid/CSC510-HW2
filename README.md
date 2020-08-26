@@ -42,3 +42,5 @@ TEAM MEMBERS:
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3996635.svg)](https://doi.org/10.5281/zenodo.3996635)
 
+[![Run on Repl.it](https://repl.it/badge/github/pushkardravid/CSC510-HW2)](https://repl.it/github/pushkardravid/CSC510-HW2)
+
