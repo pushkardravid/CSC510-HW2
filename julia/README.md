@@ -6,7 +6,7 @@
 ### Running the code
 
  - Clone this repository and navigate to the `\julia` directory
- - Run the ruby simulation using this command
+ - Run the julia simulation using this command
 
       ```
       julia gol.jl
