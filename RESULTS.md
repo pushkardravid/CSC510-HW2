@@ -22,6 +22,19 @@ Maximum amount of time taken: 20 minutes
 ---
 
 
+*For Go*
+
+Observations noted based on the time taken by a person for debugging the go code.
+
+![Go observations.png](https://i.imgur.com/2dJao4W.png)
+
+Average amount of time taken: 10.7 minutes
+Minimum amount of time taken: 5 minutes
+Maximum amount of time taken: 15 minutes
+
+---
+
+
 TEAM MEMBERS:
 
 * Pushkar Dravid
