@@ -39,6 +39,12 @@ Maximum amount of time taken: 15 minutes
 ---
 
 
+Comparison of all languages
+
+![Comparison.png](https://i.imgur.com/HtNvycA.png)
+
+Based on this experiment, we can conclude that Go was the easiest language to debug for our set of participants.
+
 TEAM MEMBERS:
 
 * Pushkar Dravid
