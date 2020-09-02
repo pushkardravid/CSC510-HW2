@@ -6,6 +6,14 @@
 
 Observations noted based on the time taken by a person for debugging the ruby code.
 
+<img src = "https://user-images.githubusercontent.com/10280902/92035248-69f97c00-ed3c-11ea-9a7a-9dbbf1a4ae21.png">
+
+Average amount of time taken: 11.7 minutes
+
+Minimum amount of time taken: 7 minutes
+
+Maximum amount of time taken: 17 minutes
+
 ---
 
 
