@@ -6,6 +6,11 @@
 
 Observations noted based on the time taken by a person for debugging the ruby code.
 
+*For Julia*
+
+Observations noted based on the time taken by a person for debugging the julia code.
+
+![Julia observations.png](https://i.imgur.com/DOqGtHk.png)
 
 
 TEAM MEMBERS:
