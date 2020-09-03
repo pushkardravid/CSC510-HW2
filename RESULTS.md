@@ -6,9 +6,9 @@
 * For the ease of testing the code we have used repl which avoids the testers from installing all the requirements locally.
 * we have provided the testers with repl link which contains the respective code for each language in the corresponding folders and documentation for each of these programs can be found by visiting their respective directories.
 * After each debugging session the testers are provided with a survey form to fill, to know more about the experience of the debbuging session.
-* the time taken by each tester to debug is logged manually.
+* the time taken by each tester to debug in a particular language is logged manually and this metric is used to assess the programming languges.
 
-## Observations 
+## Observations from Game of Life Debugging Sessions
 
 *For Ruby*
 
@@ -80,7 +80,7 @@ Average amount of time takenfor julia: 12.67 minutes
 * the original working version of the code was accesible to all the testers, which means they might have already had a look at the code and the bugs.
 * since the sessions were conducted one after ther might be a chance of that the solutions were passed from one to another.
 
-## Material
+## Materials
 
 * the survey form which we used to collect data can be [found here](https://pushkardravid.typeform.com/to/Hbzlbpvu)
 * the responses from the survey form can be [found here](https://docs.google.com/spreadsheets/d/1HUypAfMVKERYp1nnGI3mDJJdnR4YY5uuhC1JUFLXnU4/edit?usp=sharing)
