@@ -61,6 +61,13 @@ Comparison of all languages
 
 ![Comparison.png](https://i.imgur.com/HtNvycA.png)
 
+Average amount of time taken for go : 10.7 minutes
+
+Average amount of time taken for ruby : 11.7 minutes
+
+Average amount of time takenfor julia: 12.67 minutes
+
+
 
 ### Conclusions
 
