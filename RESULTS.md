@@ -1,8 +1,6 @@
 # CSC510 Homework 3
 
-## Observations from the Game of Life debugging sessions.
-
-### Methods
+## Methods
 
 * The Game of life was implemented in three languages Ruby, Julia and Go.
 * For the ease of testing the code we have used repl which avoids the testers from installing all the requirements locally.
@@ -10,7 +8,7 @@
 * After each debugging session the testers are provided with a survey form to fill, to know more about the experience of the debbuging session.
 * the time taken by each tester to debug is logged manually.
 
-### Observations 
+## Observations 
 
 *For Ruby*
 
@@ -69,7 +67,7 @@ Average amount of time takenfor julia: 12.67 minutes
 
 
 
-### Conclusions
+## Conclusions
 
 * As we can see the average time taken to debug Go was lesser compared to ruby and julia.
 * from the responses we got from the survey form, people felt a bit diffcult to debug julia compared to go and ruby.
