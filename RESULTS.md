@@ -4,7 +4,7 @@
 
 * The Game of life was implemented in three languages Ruby, Julia and Go.
 * For the ease of testing the code we have used repl which avoids the testers from installing all the requirements locally.
-* we have provided the testers with repl link which contains the respective code for each language in the corresponding folders.
+* we have provided the testers with repl link which contains the respective code for each language in the corresponding folders and documentation for each of these programs can be found by visiting their respective directories..
 
 ### Data Collection for Analysis
 
