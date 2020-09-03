@@ -2,6 +2,15 @@
 
 ## Observations from the Game of Life debugging sessions.
 
+* The Game of life was implemented in three languages Ruby, Julia and Go.
+* For the ease of testing the code we have used repl which avoids the testers from installing all the requirements locally.
+* we have provided the testers with repl link which contains the respective code for each language in the corresponding folders.
+
+### Data Collection for Analysis
+
+* After each debugging session the testers are provided with a survey form to fill, to know more about the experience of the debbuging session.
+* the time taken by each tester to debug is logged manually.
+
 *For Ruby*
 
 Observations noted based on the time taken by a person for debugging the ruby code.
@@ -51,9 +60,25 @@ Comparison of all languages
 
 ![Comparison.png](https://i.imgur.com/HtNvycA.png)
 
-Based on this experiment, we can conclude that Go was the easiest language to debug for our set of participants.
 
-TEAM MEMBERS:
+### Conclusion
+
+* As we can see the average time taken to debug Go was lesser compared to ruby and julia.
+* from the responses we got from the survey form, people felt a bit diffcult to debug julia compared to go and ruby.
+* based on these data we can say go is best language to work on in terms of ease of understanding the code and debugging with ruby being the second best followed by julia.
+
+## Credibility of Conclusion
+
+* Around 5 out of 10 testers have already worked with Go before which might have created a bias towards Go.
+* Half the testers have worked with ruby as well which might be a reason for the current standings with Go being the best follwed by ruby and julia.
+* the original working version of the code was accesible to all the testers, which means they might have already had a look at the code and the bugs.
+
+## Material
+
+* the survey form which we used to collect data can be [found here](https://pushkardravid.typeform.com/to/Hbzlbpvu)
+
+
+## Team Members:
 
 * Pushkar Dravid
 * Ayush Jain
